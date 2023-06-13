@@ -21,7 +21,9 @@ Check requirements.txt for more informations.
 !python generator.py {model_path}
 ```
 ## hyperparameters
-
+- model_type
+- batch_size
+- epochs
 
 ## experiment results
 Score sheet: 
