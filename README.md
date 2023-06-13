@@ -8,19 +8,21 @@ This is a model for predicting badminton strokes. The input contains the informa
 ### coding environment
 Google Colab (Python 3.10.12)
 ### packages version
-
+Check requirements.txt for more informations.
 
 
 ## usage
-### Train
+- Train
 ```
 !python train.py --model_type {model_type}
 ```
-### Evaluate
+* Evaluate
 ```
-!python generator.py 'output'
+!python generator.py {model_path}
 ```
 ## hyperparameters
 
 
 ## experiment results
+Score sheet: 
+https://docs.google.com/spreadsheets/d/15EogJ0XS6cmDzooSyDhwsRabHgcsqgoPACAvdR9ZHps/edit#gid=0
